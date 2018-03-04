@@ -9,7 +9,8 @@
 
 
 ##Install
-    https://github.com/Imfdj/emailAutoComplete.git
+
+   git clone https://github.com/Imfdj/emailAutoComplete.git
 
 ##Examples
         <input type="text">
