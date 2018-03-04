@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .hooks {
+        background-color: #eee;
+    }
+    .emailAutoComplete-ul {
+
+    }
+    .emailAutoComplete-li {
+        line-height: 23px;
+        color: #333;
+        padding: 2px 5px;
+    }
+</style>
+<body>
+<div style="margin: 100px;position: relative;">
+    <div style="position: relative">
+        <div style="margin: 111px;">
+            <input type="text">
+        </div>
+    </div>
+</div>
+
+<script src="./src/jquery.min.js"></script>
+<script src="./src/emailAutoComplete.js"></script>
+<script>
+
+    $('input').emailAutoComplete({
+        postfix: ['qq.com', '163.com', '263.com', 'sina.com', 'gmail.com', '126.com', 'sohu.com']
+    });
+
+</script>
+</body>
+</html>
